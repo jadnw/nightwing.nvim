@@ -32,8 +32,8 @@ M.pals = {
     fg1 = "#c1c6d7",
     fg2 = "#b1b7cd",
     fg3 = "#a2a9c3",
-    sel0 = "#5a648c",
-    sel1 = "#737ea5",
+    sel0 = "#4d5578",
+    sel1 = "#5c658e",
   },
   medium = {
     accent = C:shade("#73cfdd"),
@@ -58,8 +58,8 @@ M.pals = {
     fg1 = "#c1c6d7",
     fg2 = "#b1b7cd",
     fg3 = "#a2a9c3",
-    sel0 = "#5a648c",
-    sel1 = "#737ea5",
+    sel0 = "#4d5578",
+    sel1 = "#5c658e",
   },
   hard = {
     accent = C:shade("#73cfdd"),
@@ -84,8 +84,8 @@ M.pals = {
     fg1 = "#c1c6d7",
     fg2 = "#b1b7cd",
     fg3 = "#a2a9c3",
-    sel0 = "#5a648c",
-    sel1 = "#737ea5",
+    sel0 = "#4d5578",
+    sel1 = "#5c658e",
   },
 }
 
