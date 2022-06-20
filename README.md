@@ -4,7 +4,7 @@
   <img
     width="144px"
     height="144px"
-    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/main/media/logo.svg"
+    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/dev/media/logo.png"
     alt="nightwing logo"
   />
 </div>
@@ -17,14 +17,14 @@
 </p>
 
 <p align="center">
-  A customizable dark colorscheme for NeoVim 0.5+ with LSP, TreeSitter and a variety of plugins support.
+  A hight constrast, very dark colorscheme for NeoVim 0.5+ with LSP, TreeSitter and a variety of plugins support.
 </p>
 
 ## Table of contents
 
 - [Overview](#overview)
 - [Requirements](#requirements)
-- [Palette & Gems](#palette-gems)
+- [Palette](#palette)
 - [Installation](#Installation)
 - [Setup](#setup)
 - [Supported Plugins](#supported-plugins)
@@ -32,10 +32,27 @@
 
 ## Overview
 
+- Nightwing Hard
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/main/media/screenshot.png"
-    alt="Default Screenshot"
+    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/dev/media/variants/hard.png"
+    alt="Hard"
+  />
+</div>
+
+- Nightwing Medium
+<div align="center">
+  <img 
+    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/dev/media/variants/medium.png"
+    alt="Medium"
+  />
+</div>
+
+- Nightwing Soft
+<div align="center">
+  <img 
+    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/dev/media/variants/soft.png"
+    alt="Soft"
   />
 </div>
 
@@ -43,34 +60,16 @@
 
 - Neovim >= 0.5.0
 
-## Palette & Gems
+## Palette
 
 Nightwing saves your eyestraints with a dark background and a pastel palette.
 
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/main/media/palette.svg"
+    src="https://raw.githubusercontent.com/jadnw/nightwing.nvim/dev/media/palette.png"
     alt="Nightwing Palette"
   />
 </div>
-
-### Available Gems
-
-The accent color (foreground color of NvimTree directory, Dashboard header, ...)
-will change when you change the gem in [setup function](#setup)
-
-|Gem                |Accent Color   |
-|-------------------|---------------|
-|hard (default)  |Green          |
-|Amber              |Orange         |
-|Apatite            |Teal           |
-|Crystal            |White          |
-|Diamond            |Cyan           |
-|Kunzite            |Magenta        |
-|Obsidian           |Purple         |
-|Ruby               |Red            |
-|Sapphire           |Blue           |
-|Topaz              |Yellow         |
 
 ## Installation
 
@@ -104,8 +103,8 @@ This is an example Nightwing setup with default values
 
 ```lua
 require("nightwing").setup {
-  gem = "hard",
-  -- values: "hard" | "amber" | "apatite" | "crystal" | "diamond"| "kunzite" | "obsidian" | "ruby" | "sapphire" | "topaz"
+  variant = "hard",
+  -- values: "hard" | "medium" | "soft"
   options = {
     transparent = false, -- if true, background is transparent
     terminal_colors = true, -- if true, set terminal colors
@@ -171,3 +170,4 @@ require("nightwing").setup {
 
 - [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- [jadnw/gemstones.nvim](https://github.com/jadnw/gemstones.nvim)
